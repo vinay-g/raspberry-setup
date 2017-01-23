@@ -33,7 +33,7 @@ Reboot
 $ sudo reboot
 ```
 
-### Enable us keyboard
+## Enable us keyboard
 
 ```
 $ sudo nano /etc/default/keyboard
@@ -45,3 +45,13 @@ Reboot
 ```
 $ sudo reboot
 ```
+
+## Enable static IP
+
+```
+$ sudo nano /etc/network/interfaces
+```
+Add below with values 
+network
+netmask
+gateway
